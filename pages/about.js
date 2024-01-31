@@ -1,4 +1,5 @@
 import Hero from 'components/hero'
+import Head from 'next/head'
 import Container from 'components/container'
 import PostBody from 'components/post-body'
 import Contact from 'components/contact'
@@ -13,6 +14,10 @@ import eyecatch from 'images/about.jpg'
 const About = () => {
   return (
     <Container>
+      <Head>
+        <title>アバウト</title>
+      </Head>
+
       <Hero title='About' subtitle='About development activities' />
 
       <figure>
